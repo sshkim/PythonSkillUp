@@ -1,4 +1,3 @@
-# TODO: Check The Rotation
 n, r = map(int, input().split())
 
 a = list(map(int, input().split()))

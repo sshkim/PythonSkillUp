@@ -1,4 +1,3 @@
-# TODO: Quick Sort
 def partition(arr, first, last):
     pivot_idx = first
 

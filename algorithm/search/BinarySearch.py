@@ -1,17 +1,16 @@
-# TODO: Binary Search
 import unittest
 
 
 def binarySearch(arr, num):
     if len(arr) == 0:
         return False
+
     else:
         mid = len(arr) // 2
 
         if arr[mid] == num:
             return True
-
-        if arr[mid] > num:
+        elif arr[mid] > num:
             return binarySearch(arr[:mid], num)
         else:
             return binarySearch(arr[mid + 1:], num)
